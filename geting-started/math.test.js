@@ -48,3 +48,11 @@ it("it should throw an error of no argument is passed", () => {
 
 	expect(resultFn).toThrow();
 })
+
+it("it should throw an error if multiple argument is provided", () => {
+	const resultFn = ()=> {
+		add(1, 2, 3);
+	}
+
+	expect(resultFn).toThrow(/is not iterable/i);
+});
