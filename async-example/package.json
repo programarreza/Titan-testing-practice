@@ -1,15 +1,13 @@
 {
-  "name": "getting-started",
+  "name": "async-example",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "test": "vitest --reporter verbose --run"
   },
-  "devDependencies": {
-    "vitest": "^3.0.4"
-  },
   "dependencies": {
-    "crypto-js": "^4.2.0"
+    "crypto-js": "^4.2.0",
+    "vitest": "^3.0.4"
   }
 }
